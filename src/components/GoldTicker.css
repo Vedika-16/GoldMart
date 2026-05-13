@@ -1,0 +1,100 @@
+.gold-ticker {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 0.4rem 0;
+  font-size: 0.72rem;
+  overflow: hidden;
+}
+
+.ticker-label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--gold-primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.65rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.ticker-dot {
+  width: 6px;
+  height: 6px;
+  background: #4caf50;
+  border-radius: 50%;
+  animation: tickerPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes tickerPulse {
+  0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.4); }
+  50% { opacity: 0.6; box-shadow: 0 0 0 4px rgba(76, 175, 80, 0); }
+}
+
+.ticker-rates {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+}
+
+.ticker-rate {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  white-space: nowrap;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  background: rgba(212, 175, 55, 0.04);
+  border: 1px solid rgba(212, 175, 55, 0.08);
+  transition: all 0.3s ease;
+}
+
+.rate-karat {
+  color: var(--gold-primary);
+  font-weight: 700;
+  font-size: 0.65rem;
+}
+
+.rate-price {
+  color: var(--text-main);
+  font-weight: 600;
+  font-family: var(--font-sans);
+}
+
+.rate-change {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-weight: 600;
+  font-size: 0.62rem;
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+.rate-change.up {
+  color: #4caf50;
+  background: rgba(76, 175, 80, 0.1);
+}
+
+.rate-change.down {
+  color: #ef5350;
+  background: rgba(239, 83, 80, 0.1);
+}
+
+@media (max-width: 768px) {
+  .gold-ticker {
+    font-size: 0.65rem;
+    gap: 0.75rem;
+  }
+  .ticker-rates {
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .ticker-rates {
+    display: none;
+  }
+}

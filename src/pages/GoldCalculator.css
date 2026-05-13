@@ -1,0 +1,252 @@
+/* ===== Gold Calculator Page ===== */
+.calculator-page {
+  padding: 6rem 2rem 4rem;
+  min-height: 80vh;
+}
+
+.calculator-page .page-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.calculator-page .page-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.calculator-page .page-header p {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.calculator-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Input Panel */
+.calc-input-panel {
+  padding: 2.5rem;
+}
+
+.calc-form-group {
+  margin-bottom: 1.75rem;
+}
+
+.calc-form-group label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gold-primary);
+  margin-bottom: 0.6rem;
+}
+
+.calc-form-group input,
+.calc-form-group select {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  background: rgba(25, 25, 25, 0.8);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  border-radius: 6px;
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  appearance: none;
+}
+
+.calc-form-group select {
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23D4AF37' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  padding-right: 2.5rem;
+}
+
+.calc-form-group input:focus,
+.calc-form-group select:focus {
+  border-color: var(--gold-primary);
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+}
+
+.calc-form-group input::placeholder {
+  color: var(--text-muted);
+  opacity: 0.5;
+}
+
+.calc-submit-btn {
+  width: 100%;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+/* Result Panel */
+.calc-result-panel {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(160deg, rgba(212, 175, 55, 0.06), rgba(10, 10, 10, 0.8));
+  position: relative;
+  overflow: hidden;
+}
+
+.calc-result-panel::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(212, 175, 55, 0.03) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.calc-placeholder {
+  text-align: center;
+  color: var(--text-muted);
+  opacity: 0.5;
+}
+
+.calc-placeholder p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.calc-result {
+  text-align: center;
+  animation: resultReveal 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes resultReveal {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.result-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.result-value {
+  font-family: var(--font-serif);
+  font-size: 3rem;
+  font-weight: 800;
+  background: var(--gold-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.result-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  width: 100%;
+  max-width: 260px;
+}
+
+.breakdown-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.08);
+}
+
+.breakdown-row span:first-child {
+  color: var(--text-muted);
+}
+
+.breakdown-row span:last-child {
+  color: var(--text-main);
+  font-weight: 500;
+}
+
+.result-disclaimer {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  opacity: 0.5;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+/* Rate Cards */
+.rate-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  max-width: 900px;
+  margin: 3rem auto 0;
+}
+
+.rate-card {
+  padding: 1.25rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rate-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-gold);
+}
+
+.rate-card h4 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 0.4rem;
+}
+
+.rate-card .rate-value {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  font-weight: 700;
+  background: var(--gold-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.rate-card .rate-per {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+
+@media (max-width: 768px) {
+  .calculator-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .calculator-page .page-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .result-value {
+    font-size: 2.2rem;
+  }
+
+  .calc-input-panel,
+  .calc-result-panel {
+    padding: 1.75rem;
+  }
+}
