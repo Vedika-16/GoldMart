@@ -7,14 +7,14 @@ export const products = [
     karat: '18k',
     weight: '3.5g',
     price: 1250,
-    image: 'https://up.yimg.com/ib/th/id/OIP.wUhXWsTPugwCSKOta3g_NAHaHa?pid=Api&rs=1&c=1&qlt=95&w=116&h=116',
+    image: 'https://res.cloudinary.com/wolfandbadger/image/upload/c_pad,b_white,h_800,w_800/products/fourteen-kt-eternal-radiance-gold-diamond-ring__1f5329bc8146cbe4237d64f93a453f2e',
     description: 'A beautiful 18k gold ring with intricate diamond detailing, perfect for giving an elegant impression.',
     tags: ['wedding', 'elegant', 'gift']
   },
   {
     id: 'r2',
-    name: 'Vintage Signet Ring',
-    category: 'Rings',
+    name: 'Minimalist Pendant Necklace',
+    category: 'Necklace',
     karat: '22k',
     weight: '8.0g',
     price: 2600,
@@ -117,7 +117,7 @@ export const products = [
     karat: '22k',
     weight: '7.0g',
     price: 2400,
-    image: 'https://images.unsplash.com/photo-1605100804763-247f67b2548e?auto=format&fit=crop&q=80',
+    image: 'https://cdn11.bigcommerce.com/s-9b8niz/images/stencil/1100x1100/products/7488/27872/hammered-yellow-gold-wedding-band-mens-ring__08143.1753450421.jpg?c=2',
     description: 'A hand-hammered 22k gold band with raw, organic texture. Artisanal craftsmanship at its finest.',
     tags: ['classic', 'traditional', 'daily']
   },
@@ -139,7 +139,7 @@ export const products = [
     karat: '18k',
     weight: '6.0g',
     price: 1600,
-    image: 'https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&q=80',
+    image: 'https://tse3.mm.bing.net/th/id/OIP.nB2RdJQbupl3Xb69ItCuBAHaHa?pid=Api&P=0&h=180',
     description: 'A set of three thin 18k gold stackable rings with different textures - smooth, twisted, and beaded.',
     tags: ['modern', 'daily', 'gift']
   },
@@ -152,7 +152,7 @@ export const products = [
     karat: '22k',
     weight: '12.0g',
     price: 3800,
-    image: 'https://images.unsplash.com/photo-1599643478512-bb20b60d00f7?auto=format&fit=crop&q=80',
+    image: 'https://tse2.mm.bing.net/th/id/OIP.sa08J5VbHIG1f_aAknHemgHaKR?pid=Api&P=0&h=180',
     description: 'A classic 22k gold chain that exudes luxury and weight. Perfect for daily wear or special occasions.',
     tags: ['classic', 'daily', 'gift']
   },
@@ -174,7 +174,7 @@ export const products = [
     karat: '18k',
     weight: '15.0g',
     price: 4600,
-    image: 'https://images.unsplash.com/photo-1611085583191-a3b181a88401?auto=format&fit=crop&q=80',
+    image: 'https://tse1.mm.bing.net/th/id/OIP.zmCqQwjjvg4A7IWcku33fgHaGn?pid=Api&P=0&h=180',
     description: 'A luxurious 18k gold choker necklace inspired by Italian craftsmanship, featuring a bold flat-link design.',
     tags: ['party', 'luxury', 'elegant']
   },
@@ -185,7 +185,7 @@ export const products = [
     karat: '18k',
     weight: '8.0g',
     price: 2800,
-    image: 'https://images.unsplash.com/photo-1515562141589-67f0d569b6f4?auto=format&fit=crop&q=80',
+    image: 'https://tse4.mm.bing.net/th/id/OIP.rffZUXEShyDP0roL8TM8BQHaHa?pid=Api&P=0&h=180',
     description: 'A multi-layered necklace combining freshwater pearls with delicate 18k gold chains for a timeless look.',
     tags: ['elegant', 'wedding', 'gift']
   },
@@ -196,7 +196,7 @@ export const products = [
     karat: '24k',
     weight: '30.0g',
     price: 9800,
-    image: 'https://images.unsplash.com/photo-1602524206684-fce1d8ca7a73?auto=format&fit=crop&q=80',
+    image: 'https://tse4.mm.bing.net/th/id/OIP.K3fPQa_q9IVj8g0Qw0aUEgAAAA?pid=Api&P=0&h=180',
     description: 'A heavyweight 24k pure gold Cuban link chain. The ultimate statement of opulence and power.',
     tags: ['luxury', 'classic', 'traditional']
   },
@@ -207,7 +207,7 @@ export const products = [
     karat: '22k',
     weight: '10.0g',
     price: 3200,
-    image: 'https://images.unsplash.com/photo-1599643478512-bb20b60d00f7?auto=format&fit=crop&q=80',
+    image: 'https://tse2.mm.bing.net/th/id/OIP.Ab0N8ffuMaQe9uVkUGGiwQHaHa?pid=Api&P=0&h=180',
     description: 'A traditional figaro pattern chain in rich 22k gold. The signature chain for the discerning gentleman.',
     tags: ['classic', 'daily', 'traditional']
   },
