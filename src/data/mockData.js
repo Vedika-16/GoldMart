@@ -24,7 +24,7 @@ export const products = [
   },
   {
     id: 'r3',
-    name: 'Diamond Solitaire Band',
+    name: 'Diamond Solitaire Ring',
     category: 'Rings',
     karat: '18k',
     weight: '4.0g',
@@ -62,7 +62,7 @@ export const products = [
     karat: '22k',
     weight: '6.2g',
     price: 2200,
-    image: 'https://images.unsplash.com/photo-1598560917505-59a3ad559071?auto=format&fit=crop&q=80',
+    image: 'https://tse4.mm.bing.net/th/id/OIP.VvNuM8acX7pVW5qvuKS7PAHaHa?pid=Api&P=0&h=180',
     description: 'A domed 22k gold ring with celestial star engravings. A symbol of infinite beauty.',
     tags: ['modern', 'elegant', 'gift']
   },
@@ -218,7 +218,7 @@ export const products = [
     karat: '18k',
     weight: '3.5g',
     price: 1200,
-    image: 'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?auto=format&fit=crop&q=80',
+    image: 'https://tse4.mm.bing.net/th/id/OIP.mYpHOnqRJ0_l45TLiGZh-wHaLH?pid=Api&P=0&h=180',
     description: 'A graceful 18k gold pendant shaped as a blooming lotus, representing purity and enlightenment.',
     tags: ['modern', 'gift', 'elegant']
   },
@@ -229,7 +229,7 @@ export const products = [
     karat: '18k',
     weight: '7.5g',
     price: 2400,
-    image: 'https://images.unsplash.com/photo-1611085583191-a3b181a88401?auto=format&fit=crop&q=80',
+    image: 'https://tse3.mm.bing.net/th/id/OIP.7fv2mZjM0dLObMTDhxLDXgHaHa?pid=Api&P=0&h=180',
     description: 'An 18k gold snake chain with silky smooth links that drape beautifully on the collarbone.',
     tags: ['elegant', 'party', 'modern']
   },
@@ -262,7 +262,7 @@ export const products = [
     karat: '22k',
     weight: '20.0g',
     price: 6500,
-    image: 'https://images.unsplash.com/photo-1602524206684-fce1d8ca7a73?auto=format&fit=crop&q=80',
+    image: 'https://tse3.mm.bing.net/th/id/OIP.12uQk0MxgQaKrAEls-r6vQHaHa?pid=Api&P=0&h=180',
     description: 'A thick 22k gold rope chain with a satisfying weight and rich amber hue. An essential staple.',
     tags: ['classic', 'luxury', 'traditional']
   },
@@ -273,7 +273,7 @@ export const products = [
     karat: '18k',
     weight: '5.0g',
     price: 3600,
-    image: 'https://images.unsplash.com/photo-1599643478512-bb20b60d00f7?auto=format&fit=crop&q=80',
+    image: 'https://tse1.mm.bing.net/th/id/OIP.-CNCHBb5vpjTSt6gtZxW8AHaHa?pid=Api&P=0&h=180',
     description: 'An 18k gold pendant housing a vivid emerald-cut gemstone in a teardrop setting.',
     tags: ['elegant', 'gift', 'party']
   },
@@ -295,7 +295,7 @@ export const products = [
     karat: '18k',
     weight: '4.0g',
     price: 1500,
-    image: 'https://images.unsplash.com/photo-1515562141589-67f0d569b6f4?auto=format&fit=crop&q=80',
+    image: 'https://tse3.mm.bing.net/th/id/OIP.ZCTJjxry1-dt_KifIX0DrQHaFj?pid=Api&P=0&h=180',
     description: 'An 18k gold Y-shaped lariat necklace with an infinity loop detail. Modern sophistication.',
     tags: ['modern', 'elegant', 'daily']
   },
@@ -306,7 +306,7 @@ export const products = [
     karat: '22k',
     weight: '18.0g',
     price: 5800,
-    image: 'https://images.unsplash.com/photo-1602524206684-fce1d8ca7a73?auto=format&fit=crop&q=80',
+    image: 'https://tse3.mm.bing.net/th/id/OIP.EZD0vYDfMxEyWvd9LRVMIAHaJQ?pid=Api&P=0&h=180',
     description: 'A sacred 22k gold mangalsutra with black bead accents. A symbol of marital bond and tradition.',
     tags: ['wedding', 'traditional']
   },
@@ -341,7 +341,7 @@ export const products = [
     karat: '22k',
     weight: '14.0g',
     price: 4200,
-    image: 'https://images.unsplash.com/photo-1535632787350-4e68ef0ac584?auto=format&fit=crop&q=80',
+    image: 'https://tse4.mm.bing.net/th/id/OIP.4ZJydDn0kgdrGHuTgJbCOQHaHa?pid=Api&P=0&h=180',
     description: 'A playful 22k gold link bracelet with dangling charms, perfect for personalizing your look.',
     tags: ['modern', 'gift', 'daily']
   },
@@ -352,7 +352,7 @@ export const products = [
     karat: '22k',
     weight: '18.0g',
     price: 5800,
-    image: 'https://images.unsplash.com/photo-1600721391776-b5cd0e0048f6?auto=format&fit=crop&q=80',
+    image: 'https://tse1.mm.bing.net/th/id/OIP.JulwInqUwfrpy7lr9hQQfgHaHa?pid=Api&P=0&h=180',
     description: 'A wide, sculpted 22k gold cuff bangle with hammered texture. Bold and unapologetically luxurious.',
     tags: ['luxury', 'party', 'traditional']
   },
@@ -385,7 +385,7 @@ export const products = [
     karat: '22k',
     weight: '16.0g',
     price: 5100,
-    image: 'https://images.unsplash.com/photo-1535632787350-4e68ef0ac584?auto=format&fit=crop&q=80',
+    image: 'https://tse4.mm.bing.net/th/id/OIP.3Y9alXpnLXvKJCVKWWW7UwHaHa?pid=Api&P=0&h=180',
     description: 'A bold 22k gold panther-link bracelet with a smooth, articulated design. Power meets precision.',
     tags: ['luxury', 'classic', 'party']
   },
@@ -396,7 +396,7 @@ export const products = [
     karat: '22k',
     weight: '22.0g',
     price: 7400,
-    image: 'https://images.unsplash.com/photo-1600721391776-b5cd0e0048f6?auto=format&fit=crop&q=80',
+    image: 'https://tse3.mm.bing.net/th/id/OIP.lOn1TjlnLEZiYl31J65cdwHaHU?pid=Api&P=0&h=180',
     description: 'A traditional 22k gold kada embellished with semi-precious gemstones. A symbol of heritage.',
     tags: ['traditional', 'wedding', 'luxury']
   },
@@ -442,7 +442,7 @@ export const products = [
     karat: '18k',
     weight: '7.5g',
     price: 3500,
-    image: 'https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?auto=format&fit=crop&q=80',
+    image: 'https://tse3.mm.bing.net/th/id/OIP.aBs9-ZN0vL81YdQiEnkn0gHaI5?pid=Api&P=0&h=180',
     description: 'Show-stopping chandelier earrings in 18k gold with cascading gemstone accents. Perfect for galas.',
     tags: ['party', 'luxury', 'elegant']
   },
@@ -453,7 +453,7 @@ export const products = [
     karat: '24k',
     weight: '2.0g',
     price: 750,
-    image: 'https://images.unsplash.com/photo-1589128777073-263566ae5e4d?auto=format&fit=crop&q=80',
+    image: 'https://tse1.mm.bing.net/th/id/OIP.HAEvWxNiL8CfsztcATJSXgHaHa?pid=Api&P=0&h=180',
     description: 'Simple yet stunning 24k pure gold stud earrings. The perfect everyday luxury.',
     tags: ['daily', 'modern', 'gift']
   },
@@ -477,7 +477,7 @@ export const products = [
     karat: '24k',
     weight: '10.0g',
     price: 6500,
-    image: 'https://images.unsplash.com/photo-1589787168422-350e87ab6054?auto=format&fit=crop&q=80',
+    image: 'https://tse1.mm.bing.net/th/id/OIP.JhDg2Q2CGR9m6R_blz10wQHaHa?pid=Api&P=0&h=180',
     description: 'A 10-gram 24k pure gold investment bar with serial certification. Ideal for serious investors.',
     tags: ['luxury', 'traditional']
   }
