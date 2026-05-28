@@ -7,7 +7,7 @@ export const products = [
     karat: '18k',
     weight: '3.5g',
     price: 1250,
-    image: 'https://images.unsplash.com/photo-1605100804763-247f67b2548e?auto=format&fit=crop&q=80',
+    image: 'https://up.yimg.com/ib/th/id/OIP.wUhXWsTPugwCSKOta3g_NAHaHa?pid=Api&rs=1&c=1&qlt=95&w=116&h=116',
     description: 'A beautiful 18k gold ring with intricate diamond detailing, perfect for giving an elegant impression.',
     tags: ['wedding', 'elegant', 'gift']
   },
