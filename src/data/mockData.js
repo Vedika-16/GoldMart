@@ -51,7 +51,7 @@ export const products = [
     karat: '18k',
     weight: '3.8g',
     price: 1400,
-    image: 'https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80',
+    image: 'https://sp.yimg.com/ib/th/id/OIP.AiU9XRZWlKpVMA4TyTLSOQHaHa?pid=Api&w=148&h=148&c=7&dpr=2&rs=1',
     description: 'An 18k gold ring with delicate rose-petal detailing, symbolizing love and beauty.',
     tags: ['gift', 'elegant', 'modern']
   },
@@ -73,7 +73,7 @@ export const products = [
     karat: '18k',
     weight: '2.8g',
     price: 990,
-    image: 'https://images.unsplash.com/photo-1600721391776-b5cd0e0048f6?auto=format&fit=crop&q=80',
+    image: 'https://up.yimg.com/ib/th/id/OIP.xzXCkKV6oEB7Lx65j3d_-wHaHa?pid=Api&rs=1&c=1&qlt=95&w=124&h=124',
     description: 'A delicate 18k gold infinity band, symbolizing eternal love and commitment.',
     tags: ['wedding', 'modern', 'daily']
   },
@@ -95,7 +95,7 @@ export const products = [
     karat: '18k',
     weight: '4.5g',
     price: 1750,
-    image: 'https://images.unsplash.com/photo-1586104237516-5765d1e072ee?auto=format&fit=crop&q=80',
+    image: 'https://www.babygold.com/cdn/shop/files/N-GLIM203130_1_a3fa2ba2-b9c4-4157-a2c2-bd2033e6a07a_2400x.png?v=1716912243',
     description: 'An edgy serpent-shaped 18k gold ring that wraps elegantly around the finger.',
     tags: ['modern', 'party', 'elegant']
   },
